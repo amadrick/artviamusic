@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../../../favicon.ico">
+        <title>ARTviaMUSIC</title>
+        <link href="{% static 'styles.css' %}" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <header>
+        <a href="{% url 'home' %}"><img src="{% static 'AvM-Logo.png' %}" height="55"></a>
+        <h1>ART via MUSIC</h1>
+    </header>
+
+
+        <main>
+            <div>
+                <section>
+                    <h1>{{ job.summary }}</h1>
+                    <h3>{{ job.song }}</h3>
+                    <h3>{{ job.art }}</h3>
+                    <br>
+                    <img src="{{ job.image.url }}" width="100%"></img>
+                    <p></p>
+                    <iframe src="{{ job.spotify }}" width="400" height="80" frameborder="10" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <br>
+                    <p>{{ job.write_up }}</p>
+                </section>
+            </div>
+        </main>
+
+    <footer>
+            <a href="{% url 'about' %}">About</a>
+    </footer>
+
+        <script src="{% static 'jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static 'popper.min.js' %}"></script>
+        <script src="{% static 'bootstrap.min.js' %}"></script>
+
+    </body>
+</html>
+
+
