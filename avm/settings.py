@@ -25,7 +25,7 @@ SECRET_KEY = 's%-+hu40)lu5+j%y8o-d54nvm6_vvod4e5yu!su4avjcod^+&+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['178.128.184.126']
 
 
 # Application definition
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'avm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'avmdb',
-        'USER': 'postgres',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'avm',
+        'USER': 'andy',
         'PASSWORD': 'Chippewa69',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 
