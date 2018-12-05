@@ -90,9 +90,9 @@ footer a {
 
 .text-block {
     position: absolute;
+    left: 0;
+    right: 0;
     bottom: 0px;
-    right: 0px;
     color: white;
-    padding-right: 0px;
-    font-size: 6vw;
+    font-size: 16px;
 }
