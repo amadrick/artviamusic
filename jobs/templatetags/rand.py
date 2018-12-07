@@ -3,7 +3,7 @@ from django import template
 register = template.Library()
 
 @register.filter
-def shuffle(arg):
+def rand(arg):
     aux = list(arg)[:]
-    random.shuffle(aux)
+    random.rand(aux)
     return aux
