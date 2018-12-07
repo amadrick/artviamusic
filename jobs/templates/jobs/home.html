@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 {% load static %}
+{% load rand %}
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +24,7 @@
             <div>
                 {% for job in jobs.all %}
                 <div div class="container">
-                    <a href="{% url 'detail' job.id %}">
+                    <a href="{% url 'detail' job.id | rand %}">
                         <img src={{ job.image.url }} width="100%"">
                         <div class="text-block">
                             <p class="futura">{{ job.summary}}</p>
