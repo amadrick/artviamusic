@@ -24,7 +24,7 @@
             <div>
                 {% for job in jobs.all %}
                 <div div class="container">
-                    <a href="{% url 'detail' job.id|rand %}">
+                    <a href="{% url 'detail' job.id %}">
                         <img src={{ job.image.url }} width="100%"">
                         <div class="text-block">
                             <p class="futura">{{ job.summary}}</p>

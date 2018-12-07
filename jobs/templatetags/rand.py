@@ -4,6 +4,6 @@ register = template.Library()
 
 @register.filter
 def rand(arg):
-    aux = list(int(arg))[:]
+    aux = list (arg))[:]
     random.rand(aux)
     return aux
