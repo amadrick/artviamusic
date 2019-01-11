@@ -16,12 +16,11 @@ class Job(models.Model):
     write_up = models.CharField(max_length=10000, default='')
     # Spotify
     spotify = models.CharField(max_length=200, default="Add 'embed' between '...com/' and '/track...'")
-
     #Text Field (test)
     text = models.TextField(default="test")
 
     # Google Maps
-    map = models.CharField(max_length=5000, default="Just add URL")
+    #map = models.CharField(max_length=5000, default="Just add URL")
 
     def __str__(self):
         return self.summary
