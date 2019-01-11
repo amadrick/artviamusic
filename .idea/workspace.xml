@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81aa42da-1044-4a8b-be48-f1624a62df34" name="Default Changelist" comment="" />
+    <list default="true" id="81aa42da-1044-4a8b-be48-f1624a62df34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jobs/templates/jobs/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/templates/jobs/detail.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
           <entry key="js" value="1" />
           <entry key="py" value="8" />
         </counts>
@@ -39,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="5" />
           <entry key="JavaScript" value="1" />
           <entry key="Python" value="8" />
         </counts>
@@ -49,14 +51,14 @@
           <entry key="Python Console" value="129" />
           <entry key="css" value="32" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="109" />
+          <entry key="html" value="116" />
           <entry key="py" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="32" />
-          <entry key="HTML" value="109" />
+          <entry key="HTML" value="116" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="284" />
         </counts>
@@ -92,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jobs/templates/jobs/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -119,13 +130,13 @@
         <option value="$PROJECT_DIR$/avm/settings.py" />
         <option value="$PROJECT_DIR$/jobs/templates/jobs/about.html" />
         <option value="$PROJECT_DIR$/jobs/static/styles.css" />
-        <option value="$PROJECT_DIR$/jobs/templates/jobs/detail.html" />
         <option value="$PROJECT_DIR$/jobs/templatetags/random.py" />
         <option value="$PROJECT_DIR$/jobs/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/jobs/templatetags/rand.py" />
         <option value="$PROJECT_DIR$/jobs/templates/jobs/home.html" />
         <option value="$PROJECT_DIR$/static/styles.css" />
         <option value="$PROJECT_DIR$/jobs/models.py" />
+        <option value="$PROJECT_DIR$/jobs/templates/jobs/detail.html" />
       </list>
     </option>
   </component>
@@ -211,7 +222,7 @@
     <frame x="1178" y="61" width="1325" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23849693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23849693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.37633136" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3289941" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3289941" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -263,13 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/templates/jobs/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/avm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -302,6 +306,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/templates/jobs/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
