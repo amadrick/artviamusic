@@ -21,7 +21,7 @@ class Job(models.Model):
     text = models.TextField(default="test")
 
     # Google Maps
-    #map = models.CharField(max_length=5000, default="Just add URL")
+    map = models.CharField(max_length=5000, default="Just add URL")
 
     def __str__(self):
         return self.summary
