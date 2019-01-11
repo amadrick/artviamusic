@@ -1,4 +1,5 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 # Create your models here.
 class Job(models.Model):
@@ -18,6 +19,9 @@ class Job(models.Model):
     spotify = models.CharField(max_length=200, default="Add 'embed' between '...com/' and '/track...'")
     #Text Field (test)
     text = models.TextField(default="test")
+
+    test = RichTextField()
+
 
     # Google Maps #
     # map = models.CharField(max_length=5000, default="Just add URL")
