@@ -1,9 +1,6 @@
 from django.db import models
 
 # Create your models here.
-from django.db.models import TextField
-
-
 class Job(models.Model):
     # Image
     image = models.ImageField(upload_to='images/')
@@ -20,26 +17,7 @@ class Job(models.Model):
     # Spotify
     spotify = models.CharField(max_length=200, default="Add 'embed' between '...com/' and '/track...'")
     #Text Field (test)
-    # Text Field (test)
-    p_one = models.TextField(default="")
-    # Text Field (test)
-    p_two = models.TextField(default="")
-    # Text Field (test)
-    p_three = models.TextField(default="")
-    # Text Field (test)
-    p_four = models.TextField(default="")
-    # Text Field (test)
-    p_five = models.TextField(default="")
-    # Text Field (test)
-    p_six = models.TextField(default="")
-    # Text Field (test)
-    p_seven = models.TextField(default="")
-    # Text Field (test)
-    p_eight = models.TextField(default="")
-    # Text Field (test)
-    p_nine = models.TextField(default="")
-
-
+    text = models.TextField(default="test")
 
 
     # Google Maps #
