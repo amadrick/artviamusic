@@ -54,7 +54,11 @@
           <entry key="dummy" value="1" />
           <entry key="html" value="145" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="py" value="306" />
+=======
+          <entry key="py" value="207" />
+>>>>>>> parent of 01b1497... models
 =======
           <entry key="py" value="207" />
 >>>>>>> parent of 01b1497... models
@@ -66,7 +70,11 @@
           <entry key="HTML" value="145" />
           <entry key="PLAIN_TEXT" value="1" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="Python" value="435" />
+=======
+          <entry key="Python" value="336" />
+>>>>>>> parent of 01b1497... models
 =======
           <entry key="Python" value="336" />
 >>>>>>> parent of 01b1497... models
@@ -107,8 +115,13 @@
         <entry file="file://$PROJECT_DIR$/jobs/models.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="300">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+=======
+            <state relative-caret-position="285">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+>>>>>>> parent of 01b1497... models
 =======
             <state relative-caret-position="285">
               <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
@@ -262,7 +275,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.37633136" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3398533" />
+=======
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3289941" />
+>>>>>>> parent of 01b1497... models
 =======
       <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3289941" />
 >>>>>>> parent of 01b1497... models
@@ -342,8 +359,13 @@
     <entry file="file://$PROJECT_DIR$/jobs/models.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="300">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+=======
+        <state relative-caret-position="285">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+>>>>>>> parent of 01b1497... models
 =======
         <state relative-caret-position="285">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
