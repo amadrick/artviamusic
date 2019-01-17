@@ -17,7 +17,27 @@ class Job(models.Model):
     # Spotify
     spotify = models.CharField(max_length=200, default="Add 'embed' between '...com/' and '/track...'")
     #Text Field (test)
-    text = models.TextField(default="test")
+    text = models.TextField(default="")
+    # Text Field (test)
+    text1 = models.TextField(default="")
+    # Text Field (test)
+    text2 = models.TextField(default="")
+    # Text Field (test)
+    text3 = models.TextField(default="")
+    # Text Field (test)
+    text4 = models.TextField(default="")
+    # Text Field (test)
+    text5 = models.TextField(default="")
+    # Text Field (test)
+    text6 = models.TextField(default="")
+    # Text Field (test)
+    text7 = models.TextField(default="")
+    # Text Field (test)
+    text8 = models.TextField(default="")
+    # Text Field (test)
+    text9 = models.TextField(default="")
+
+
 
 
     # Google Maps #
