@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94aba83c-ad95-4f68-859c-bfa18099e4b7" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/0001_initial.py" beforeDir="false" />
@@ -16,6 +17,8 @@
       <change beforePath="$PROJECT_DIR$/migrations/0009_job_title.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/0010_remove_job_map.py" beforeDir="false" />
 =======
+=======
+>>>>>>> parent of 01b1497... models
       <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
 >>>>>>> parent of 01b1497... models
     </list>
@@ -125,8 +128,11 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="617" y="552" width="1098" height="937" extended-state="0" />
 =======
+=======
+>>>>>>> parent of 01b1497... models
     <frame x="147" y="23" width="1098" height="937" extended-state="0" />
     <editor active="true" />
 >>>>>>> parent of 01b1497... models
