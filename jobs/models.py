@@ -20,7 +20,6 @@ class Job(models.Model):
     # Spotify
     spotify = models.CharField(max_length=200, default="Add 'embed' between '...com/' and '/track...'")
     #Text Field (test)
-    text = models.TextField(default="")
     # Text Field (test)
     p_one = models.TextField(default="")
     # Text Field (test)
