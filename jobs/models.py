@@ -1,6 +1,9 @@
 from django.db import models
 
 # Create your models here.
+from django.db.models import TextField
+
+
 class Job(models.Model):
     # Image
     image = models.ImageField(upload_to='images/')
@@ -19,23 +22,23 @@ class Job(models.Model):
     #Text Field (test)
     text = models.TextField(default="")
     # Text Field (test)
-    text1 = models.TextField(default="")
+    p_one = models.TextField(default="")
     # Text Field (test)
-    text2 = models.TextField(default="")
+    p_two = models.TextField(default="")
     # Text Field (test)
-    text3 = models.TextField(default="")
+    p_three = models.TextField(default="")
     # Text Field (test)
-    text4 = models.TextField(default="")
+    p_four = models.TextField(default="")
     # Text Field (test)
-    text5 = models.TextField(default="")
+    p_five = models.TextField(default="")
     # Text Field (test)
-    text6 = models.TextField(default="")
+    p_six = models.TextField(default="")
     # Text Field (test)
-    text7 = models.TextField(default="")
+    p_seven = models.TextField(default="")
     # Text Field (test)
-    text8 = models.TextField(default="")
+    p_eight = models.TextField(default="")
     # Text Field (test)
-    text9 = models.TextField(default="")
+    p_nine = models.TextField(default="")
 
 
 
