@@ -19,6 +19,7 @@ class Job(models.Model):
     #Text Field (test)
     text = models.TextField(default="test")
 
+
     # Google Maps #
     # map = models.CharField(max_length=5000, default="Just add URL")
 
